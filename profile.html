@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f0f0f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .profile {
+        height: auto;
+        width: 40vw;
+        border: 3px solid aqua;
+        padding: 20px;
+        background: linear-gradient(135deg, rgba(130, 25, 86, 0.7), rgba(131, 218, 166, 0.8), rgba(123, 44, 44, 0.7), blue);
+        border-radius: 30px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .img img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+        border: 3px solid #fff;
+    }
+
+    .info {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .info h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .info p {
+        line-height: 1.5;
+    }
+
+    .tags {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .tags a {
+        font-size: 30px;
+        color: #fff;
+        margin: 0 15px;
+        transition: color 0.3s ease;
+    }
+
+    .tags a:hover {
+        color: #ffb703;
+    }
+
+</style>
+<body>
+    <div class="profile">
+        <div class="img">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqHH8eN_vQbqDLrLC9qt84L9bhZN5gOxd2WQ&s" alt="Profile Picture">
+        </div>
+        <div class="info">
+            <h3><b>Lorem remlo</b></h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti officia fuga laudantium eius saepe unde.</p>
+        </div>
+        <div class="tags">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+    </div>
+</body>
+</html>
